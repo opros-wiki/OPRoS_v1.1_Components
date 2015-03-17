@@ -1,0 +1,174 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{B6A362AA-2788-4BDE-8C22-2E562DF5A200}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>DongbuRobotTetraPanTilt</RootNamespace>
+    <SccProjectName>"$/OPRoS_V2_0", CBFAAAAA</SccProjectName>
+    <SccLocalPath>..\..\..\..</SccLocalPath>
+    <SccProvider>MSSCCI:Microsoft Visual SourceSafe</SccProvider>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;DONGBUROBOTTETRAPANTILT_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\..\CommonLibrary\include;..\..\CommonLibrary\include\device;.\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USRDLL;DONGBUROBOTTETRAPANTILT_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\..\CommonLibrary\include;..\..\CommonLibrary\include\device;.\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="DongbuRobotTetraPanTilt.h" />
+    <ClInclude Include="inc\dsphal.h" />
+    <ClInclude Include="inc\dsphal_base64.h" />
+    <ClInclude Include="inc\dsphal_builddecomp.h" />
+    <ClInclude Include="inc\dsphal_datalist.h" />
+    <ClInclude Include="inc\dsphal_data_int.h" />
+    <ClInclude Include="inc\dsphal_data_memblk_int8.h" />
+    <ClInclude Include="inc\dsphal_data_string.h" />
+    <ClInclude Include="inc\dsphal_header.h" />
+    <ClInclude Include="inc\dsphal_introspection.h" />
+    <ClInclude Include="inc\dsphal_mem.h" />
+    <ClInclude Include="inc\dsphal_method.h" />
+    <ClInclude Include="inc\dsphal_registry.h" />
+    <ClInclude Include="inc\dsphal_request.h" />
+    <ClInclude Include="inc\dsphal_service.h" />
+    <ClInclude Include="inc\dsphal_tcp.h" />
+    <ClInclude Include="inc\dsphal_tcp_client.h" />
+    <ClInclude Include="inc\dsphal_tcp_server.h" />
+    <ClInclude Include="inc\dsphal_utility.h" />
+    <ClInclude Include="inc\dsphal_winsock2.h" />
+    <ClInclude Include="inc\dsphal_xml.h" />
+    <ClInclude Include="inc\iconv.h" />
+    <ClInclude Include="inc\libxml\c14n.h" />
+    <ClInclude Include="inc\libxml\catalog.h" />
+    <ClInclude Include="inc\libxml\chvalid.h" />
+    <ClInclude Include="inc\libxml\debugXML.h" />
+    <ClInclude Include="inc\libxml\dict.h" />
+    <ClInclude Include="inc\libxml\DOCBparser.h" />
+    <ClInclude Include="inc\libxml\encoding.h" />
+    <ClInclude Include="inc\libxml\entities.h" />
+    <ClInclude Include="inc\libxml\globals.h" />
+    <ClInclude Include="inc\libxml\hash.h" />
+    <ClInclude Include="inc\libxml\HTMLparser.h" />
+    <ClInclude Include="inc\libxml\HTMLtree.h" />
+    <ClInclude Include="inc\libxml\list.h" />
+    <ClInclude Include="inc\libxml\nanoftp.h" />
+    <ClInclude Include="inc\libxml\nanohttp.h" />
+    <ClInclude Include="inc\libxml\parser.h" />
+    <ClInclude Include="inc\libxml\parserInternals.h" />
+    <ClInclude Include="inc\libxml\pattern.h" />
+    <ClInclude Include="inc\libxml\relaxng.h" />
+    <ClInclude Include="inc\libxml\SAX.h" />
+    <ClInclude Include="inc\libxml\SAX2.h" />
+    <ClInclude Include="inc\libxml\schemasInternals.h" />
+    <ClInclude Include="inc\libxml\schematron.h" />
+    <ClInclude Include="inc\libxml\threads.h" />
+    <ClInclude Include="inc\libxml\tree.h" />
+    <ClInclude Include="inc\libxml\uri.h" />
+    <ClInclude Include="inc\libxml\valid.h" />
+    <ClInclude Include="inc\libxml\xinclude.h" />
+    <ClInclude Include="inc\libxml\xlink.h" />
+    <ClInclude Include="inc\libxml\xmlautomata.h" />
+    <ClInclude Include="inc\libxml\xmlerror.h" />
+    <ClInclude Include="inc\libxml\xmlexports.h" />
+    <ClInclude Include="inc\libxml\xmlIO.h" />
+    <ClInclude Include="inc\libxml\xmlmemory.h" />
+    <ClInclude Include="inc\libxml\xmlmodule.h" />
+    <ClInclude Include="inc\libxml\xmlreader.h" />
+    <ClInclude Include="inc\libxml\xmlregexp.h" />
+    <ClInclude Include="inc\libxml\xmlsave.h" />
+    <ClInclude Include="inc\libxml\xmlschemas.h" />
+    <ClInclude Include="inc\libxml\xmlschemastypes.h" />
+    <ClInclude Include="inc\libxml\xmlstring.h" />
+    <ClInclude Include="inc\libxml\xmlunicode.h" />
+    <ClInclude Include="inc\libxml\xmlversion.h" />
+    <ClInclude Include="inc\libxml\xmlwin32version.h" />
+    <ClInclude Include="inc\libxml\xmlwriter.h" />
+    <ClInclude Include="inc\libxml\xpath.h" />
+    <ClInclude Include="inc\libxml\xpathInternals.h" />
+    <ClInclude Include="inc\libxml\xpointer.h" />
+    <ClInclude Include="inc\pstdint.h" />
+    <ClInclude Include="inc\zconf.h" />
+    <ClInclude Include="inc\zlib.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DongbuRobotTetraPanTilt.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="lib\iconv.dll" />
+    <None Include="lib\libdsphal.dll" />
+    <None Include="lib\libdsphal.so" />
+    <None Include="lib\libxml2.dll" />
+    <None Include="lib\libxml2.so" />
+    <None Include="lib\zlib1.dll" />
+    <None Include="Makefile" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="lib\libdsphal.lib" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

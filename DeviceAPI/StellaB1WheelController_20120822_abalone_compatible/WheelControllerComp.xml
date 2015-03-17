@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="EUC-KR" standalone="no"?>
+<component_profile>
+	<id>1d0a3e72-f8c1-438e-ac6e-0e180a5bd76a</id>
+	<name>WheelControllerComp</name>
+	<version>1.0</version>
+	<layout>100,150,250,200</layout>
+	<collapsed>0</collapsed>
+	<copyright>
+		<company>
+			<name>KITECH</name>
+			<phone/>
+			<address/>
+			<homepage/>
+		</company>
+		<license_policy>LGPL</license_policy>
+	</copyright>
+	<execution_environment>
+		<library_type>dll</library_type>
+		<library_name>WheelControllerComp.dll</library_name>
+		<impl_language>MSVC C++</impl_language>
+		<compiler>MSVC</compiler>
+		<app_domain/>
+		<app_robot/>
+	</execution_environment>
+	<execution_semantics>
+		<type>periodic</type>
+		<period>10</period>
+		<priority>5</priority>
+		<instance_creation>multiple</instance_creation>
+		<lifecycle_type>start</lifecycle_type>
+	</execution_semantics>
+	<properties>
+		<property name="ApiName" type="string">StellaB1WheelController</property>
+		
+		<property name="PortName" type="string">COM2</property>
+		<property name="BaudRate" type="int">115200</property>
+		<property name="DataBits" type="int">8</property>
+		<property name="StopBits" type="int">0</property>
+		<property name="Parity" type="int">0</property>
+		<property name="FlowControl" type="int">0</property>
+		
+		<property name="WheelDiameter" type="float">0.1504</property>
+		<property name="AxleDistance" type="float">0.289</property>
+		<property name="ReductionRatio" type="float">0.07142857142857142857142857142857</property>
+		<property name="EncoderCPR" type="float">256</property>
+		<property name="MaximumVelocity" type="float">5</property>
+		<property name="Acceleration" type="float">22.918311805232928350719261925642</property>
+		<property name="Deacceleration" type="float">5.7295779513082320876798154814105</property>
+		<property name="RightWheelAngleScaleFactor" type="float">0</property>
+		<property name="LeftWheelAngleScaleFactor" type="float">0</property>
+		<property name="RightWheelDistanceScaleFactor" type="float">0</property>
+		<property name="LeftWheelDistanceScaleFactor" type="float">0</property>
+		<property name="VelocityControlP" type="float">30</property>
+		<property name="VelocityControlI" type="float">200</property>
+		<property name="VelocityControlD" type="float">0.005</property>
+		<property name="VelocityControlIL" type="float">20</property>
+		<property name="PositionControlP" type="float">4.4726</property>
+		<property name="PositionControlI" type="float">0.015</property>
+		<property name="PositionControlD" type="float">7.0398</property>
+		<property name="PositionControlIL" type="float">100</property>
+
+	</properties>
+	<data_type_list/>
+	<defined_data_types/>
+	<defined_service_types>
+		<defined_service_type>WheelControllerService.xml</defined_service_type>
+	</defined_service_types>
+	<ports>
+		<service_port>
+			<name>WheelControllerService</name>
+			<description/>
+			<type>WheelControllerService</type>
+			<usage>provided</usage>
+			<reference>WheelControllerService.xml</reference>
+			<layout>334,239,178,32</layout>
+		</service_port>
+	</ports>
+</component_profile>

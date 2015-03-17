@@ -1,0 +1,51 @@
+<property name="DynamixelServoActuatorAPI" type="string">Robotis_DynamixelUART_WithID</property>
+
+<property name="UARTAPIName" type="string">UARTManager</property>
+<property name="SharedUARTAPIName" type="string">SerialCommunication</property>
+
+<property name="PortName" type="string">COM5</property>
+<property name="TimeOut" type="int">200</property>
+<property name="BaudRate" type="int">1000000</property>
+<property name="DataBits" type="int">8</property>
+<property name="StopBits" type="int">0</property>
+<property name="Parity" type="int">0</property>
+<property name="FlowControl" type="int">0</property>
+
+<property name="Size" type="int">4</property>
+
+<property name="DynamixelID0" type="int">226</property>
+<property name="MaximumPower0" type="double">1023</property>
+<property name="LinePerRevolution0" type="double">1227.6</property>
+<property name="ReductionRatio0" type="double">1</property>
+<property name="MaximumVelocity0" type="double">180</property>
+<property name="Acceleration0" type="double">1</property>
+<property name="MinimumPositionLimit0" type="double">-90</property>
+<property name="MaximumPositionLimit0" type="double">90</property>
+
+<property name="DynamixelID0" type="int">227</property>
+<property name="MaximumPower0" type="double">1023</property>
+<property name="LinePerRevolution0" type="double">1227.6</property>
+<property name="ReductionRatio0" type="double">1</property>
+<property name="MaximumVelocity0" type="double">180</property>
+<property name="Acceleration0" type="double">1</property>
+<property name="MinimumPositionLimit0" type="double">-90</property>
+<property name="MaximumPositionLimit0" type="double">90</property>
+
+<property name="DynamixelID0" type="int">228</property>
+<property name="MaximumPower0" type="double">1023</property>
+<property name="LinePerRevolution0" type="double">1227.6</property>
+<property name="ReductionRatio0" type="double">1</property>
+<property name="MaximumVelocity0" type="double">180</property>
+<property name="Acceleration0" type="double">1</property>
+<property name="MinimumPositionLimit0" type="double">-90</property>
+<property name="MaximumPositionLimit0" type="double">90</property>
+
+<property name="DynamixelID0" type="int">229</property>
+<property name="MaximumPower0" type="double">1023</property>
+<property name="LinePerRevolution0" type="double">1227.6</property>
+<property name="ReductionRatio0" type="double">1</property>
+<property name="MaximumVelocity0" type="double">180</property>
+<property name="Acceleration0" type="double">1</property>
+<property name="MinimumPositionLimit0" type="double">-90</property>
+<property name="MaximumPositionLimit0" type="double">90</property>
+

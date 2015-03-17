@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="KangwonNationalUnivKobotMobility.h" />
+    <ClInclude Include="HRC01.h" />
+    <ClInclude Include="HRC01_MC_DLL.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="KangwonNationalUnivKobotMobility.cpp" />
+    <ClCompile Include="HRC01.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="library">
+      <UniqueIdentifier>{13a1f586-8461-4da8-aec8-bd6fa6cb5db2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dll">
+      <UniqueIdentifier>{da778461-28f2-48f0-9abb-a3ae09fdaa3d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="HRC01_MC_DLL.lib">
+      <Filter>library</Filter>
+    </Library>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="HRC01_MC_DLL.dll">
+      <Filter>dll</Filter>
+    </None>
+  </ItemGroup>
+</Project>
