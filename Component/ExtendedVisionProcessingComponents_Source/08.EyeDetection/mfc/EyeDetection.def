@@ -1,0 +1,8 @@
+
+; EyeDetection.def 
+
+LIBRARY      "EyeDetection"
+
+EXPORTS
+    ; 
+	

@@ -1,0 +1,8 @@
+
+; FastFourierTransform.def 
+
+LIBRARY      "FastFourierTransform"
+
+EXPORTS
+    ; 
+	

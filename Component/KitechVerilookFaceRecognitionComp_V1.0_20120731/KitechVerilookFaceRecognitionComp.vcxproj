@@ -1,0 +1,181 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build" ToolsVersion="4.0">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <RootNamespace>KitechVerilookFaceRecognitionComp</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+    <SccProjectName>"$/OPRoS_V2_0", CBFAAAAA</SccProjectName>
+    <SccLocalPath>..\..\..\..</SccLocalPath>
+    <SccProvider>MSSCCI:Microsoft Visual SourceSafe</SccProvider>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings" />
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.30319.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>..\..\CommonLibrary\include;..\..\CommonLibrary\include\device;C:\opencv\build\include;include;Verilook;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;MAKE_COMPONENT_DLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader />
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <DisableSpecificWarnings>4290;4819;4996;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>opencv_core231.lib;opencv_imgproc231.lib;opencv_highgui231.lib;opencv_objdetect231.lib;NCore.dll.lib;NImages.dll.lib;NLExtractor.dll.lib;NLicensing.dll.lib;NMatcher.dll.lib;NTemplate.dll.lib;OPRoSCDLD.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>..\..\..\IDE\CommonLibrary\lib;C:\opencv\build\x86\vc10\lib;lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <AdditionalIncludeDirectories>..\..\CommonLibrary\include;..\..\CommonLibrary\include\device;C:\opencv\build\include;include;Verilook;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USRDLL;MAKE_COMPONENT_DLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeader />
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4290;4819;4996;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>opencv_core231.lib;opencv_imgproc231.lib;opencv_highgui231.lib;opencv_objdetect231.lib;NCore.dll.lib;NImages.dll.lib;NLExtractor.dll.lib;NLicensing.dll.lib;NMatcher.dll.lib;NTemplate.dll.lib;OPRoSCDL.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>..\..\..\IDE\CommonLibrary\lib;C:\opencv\build\x86\vc10\lib;lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="KitechVerilookFaceRecognitionComp.cpp" />
+    <ClCompile Include="Verilook\DetectionData.cpp" />
+    <ClCompile Include="Verilook\FaceDatabase.cpp" />
+    <ClCompile Include="Verilook\SProfiler.cpp" />
+    <ClCompile Include="Verilook\Utils.cpp" />
+    <ClCompile Include="Verilook\VLDatabase.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="KitechVerilookFaceRecognitionComp.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\Bmp.h" />
+    <ClInclude Include="include\Camera.h" />
+    <ClInclude Include="include\CameraMan.h" />
+    <ClInclude Include="include\CameraParams.h" />
+    <ClInclude Include="include\Jpeg.h" />
+    <ClInclude Include="include\NCore.h" />
+    <ClInclude Include="include\NErrors.h" />
+    <ClInclude Include="include\NFMatcher.h" />
+    <ClInclude Include="include\NFMatcherParams.h" />
+    <ClInclude Include="include\NfmMatchDetails.h" />
+    <ClInclude Include="include\NFRecord.h" />
+    <ClInclude Include="include\NFRecordV1.h" />
+    <ClInclude Include="include\NfsMatcher.h" />
+    <ClInclude Include="include\NfsMatcherParams.h" />
+    <ClInclude Include="include\NfsmMatchDetails.h" />
+    <ClInclude Include="include\NFTemplate.h" />
+    <ClInclude Include="include\NGeometry.h" />
+    <ClInclude Include="include\NGrayscaleImage.h" />
+    <ClInclude Include="include\NImage.h" />
+    <ClInclude Include="include\NImageFormat.h" />
+    <ClInclude Include="include\NImages.h" />
+    <ClInclude Include="include\NLExtractor.h" />
+    <ClInclude Include="include\NLExtractorParams.h" />
+    <ClInclude Include="include\NLibraryInfo.h" />
+    <ClInclude Include="include\NLicensing.h" />
+    <ClInclude Include="include\NLMatcher.h" />
+    <ClInclude Include="include\NLMatcherParams.h" />
+    <ClInclude Include="include\NLRecord.h" />
+    <ClInclude Include="include\NlsMatcher.h" />
+    <ClInclude Include="include\NlsMatcherParams.h" />
+    <ClInclude Include="include\NlsmMatchDetails.h" />
+    <ClInclude Include="include\NLTemplate.h" />
+    <ClInclude Include="include\NMatcher.h" />
+    <ClInclude Include="include\NMatcherParams.h" />
+    <ClInclude Include="include\NMemory.h" />
+    <ClInclude Include="include\NMMatchDetails.h" />
+    <ClInclude Include="include\NMonochromeImage.h" />
+    <ClInclude Include="include\NParameters.h" />
+    <ClInclude Include="include\NPixelFormat.h" />
+    <ClInclude Include="include\NProcessorInfo.h" />
+    <ClInclude Include="include\NRgbImage.h" />
+    <ClInclude Include="include\NStream.h" />
+    <ClInclude Include="include\NTemplate.h" />
+    <ClInclude Include="include\NTypes.h" />
+    <ClInclude Include="include\Tiff.h" />
+    <ClInclude Include="include\VLExtractor.h" />
+    <ClInclude Include="include\VLExtractorParams.h" />
+    <ClInclude Include="include\VLMatcher.h" />
+    <ClInclude Include="include\VLMatcherParams.h" />
+    <ClInclude Include="Verilook\DetectionData.h" />
+    <ClInclude Include="Verilook\FaceDatabase.h" />
+    <ClInclude Include="Verilook\SProfiler.h" />
+    <ClInclude Include="Verilook\Utils.h" />
+    <ClInclude Include="Verilook\VLDatabase.h" />
+    <ClInclude Include="VisionRecognitionServiceProvided.h" />
+    <ClInclude Include="VisionRecognitionServiceRequired.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="lib\CameraMan.dll.lib" />
+    <Library Include="lib\NCore.dll.lib" />
+    <Library Include="lib\NImages.dll.lib" />
+    <Library Include="lib\NLExtractor.dll.lib" />
+    <Library Include="lib\NLicensing.dll.lib" />
+    <Library Include="lib\NMatcher.dll.lib" />
+    <Library Include="lib\NTemplate.dll.lib" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="license\license.html" />
+    <None Include="profile\KitechVerilookFaceRecognitionComp.xml" />
+    <None Include="profile\VisionRecognitionService.xml" />
+    <None Include="Verilook\msado15.tlh" />
+    <None Include="Verilook\msado15.tli" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets" />
+</Project>

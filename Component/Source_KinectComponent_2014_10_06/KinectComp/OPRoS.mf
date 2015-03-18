@@ -1,0 +1,6 @@
+Manifest-Version:1.0
+Archive-type:OPRoS_Component
+Archive-name:KinectComp.tar
+Archive-description:
+Archive-Element:KinectComp.xml
+

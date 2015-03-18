@@ -1,0 +1,8 @@
+
+; QRCodeRecognition.def 
+
+LIBRARY      "QRCodeRecognition"
+
+EXPORTS
+    ; 
+	

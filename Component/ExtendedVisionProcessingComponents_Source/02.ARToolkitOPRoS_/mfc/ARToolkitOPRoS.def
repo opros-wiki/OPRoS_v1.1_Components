@@ -1,0 +1,8 @@
+
+; ARToolkitOPRoS.def 
+
+LIBRARY      "ARToolkitOPRoS"
+
+EXPORTS
+    ; 
+	

@@ -1,0 +1,8 @@
+
+; OpeningClosing.def 
+
+LIBRARY      "OpeningClosing"
+
+EXPORTS
+    ; 
+	

@@ -1,0 +1,277 @@
+Evolution Robotics Software Platform
+Software Development Kit
+END USER LICENSE AGREEMENT
+
+EVOLUTION ROBOTICS, INC. ("Evolution") IS WILLING TO LICENSE THIS
+SOFTWARE TO YOU ONLY ON THE CONDITION THAT YOU ACCEPT ALL OF THE TERMS
+AND CONDITIONS IN THIS LICENSE (the "License") AND INDICATE YOUR
+ACCEPTANCE.  PLEASE READ THE TERMS CAREFULLY BEFORE INDICATING YOUR
+ACCEPTANCE.  BY ACCEPTING THIS LICENSE YOU ACKNOWLEDGE THAT YOU HAVE
+READ THIS LICENSE, UNDERSTAND IT AND AGREE TO BE BOUND BY ITS TERMS
+AND CONDITIONS.  IF YOU DO NOT AGREE TO THESE TERMS, YOU MAY NOT
+INSTALL OR USE THE SOFTWARE.
+
+1.Written Licenses and Order of Precedence.  In the event of a
+conflict between the terms and conditions of this License and any
+written license executed by Evolution and you governing your use of
+the Evolution software accompanying this License and related
+documentation (the "Software"), such written license shall control.
+For example, the terms and conditions of such written license may
+allow you to install and use the Software on multiple computers,
+notwithstanding the provisions set forth in this License.
+
+2.Grant of License.  The Software is licensed to you by Evolution, and
+its use is subject to this License.  Evolution grants to you a
+limited, personal, non-exclusive, non-assignable right to use the
+Software solely as described in the Software documentation and as set
+forth herein.  You may install and use the Software on one computer
+only.  The Software may be used solely for internal development and
+testing purposes.  The Software may not be used for public,
+production, or commercial purposes.  To the extent that you use the
+Software to create new applications and programs ("Target
+Applications") that require incorporation of portions of the Software,
+Evolution grants you the right to reproduce the Software or parts
+thereof in conjunction with and as part of the Target Applications,
+solely upon the following conditions: (i) your development of the
+Target Applications is for your own internal development and testing
+purposes only, (ii) you do not sell, release, distribute, or transmit
+the Software in any fashion, including as incorporated in the Target
+Applications; (iii) you do not use the Target Applications in a
+public, production, or commercial environment, and (iv) you do not
+violate any terms or conditions of this License, including
+restrictions on reverse engineering.
+
+3.Licensing.  Except as set forth above, no other license is granted
+hereunder to copy or reproduce any portion of the Software as part of
+any Target Application; in the event that you wish to sell,
+distribute, or commercially use or exploit your Target Applications in
+any fashion, you must obtain a separate license from Evolution.
+Licenses may not be available for certain products, industries, or
+uses; Evolution may grant exclusive licenses to third parties
+subsequent to your entering into this License, which third party
+licenses may restrict your right to obtain licenses from Evolution
+pertaining to your Target Applications.  You may contact Evolution at
+any time regarding the availability of licenses for your Target
+Applications, but Evolution makes no representation that any such
+license shall be available, remain available, or be available on terms
+that are acceptable to you.  Until such licenses have been executed by
+you and Evolution, your development of Target Applications using the
+Software shall not be deemed to be any representation by Evolution
+that you will be able to obtain a suitable license to use or exploit
+the Target Applications.  Evolution reserves all rights not expressly
+granted to you.
+
+4.Educational Licenses.  If you have received the Software under an
+educational discount or similar educational licensing program, then
+notwithstanding anything to the contrary contained herein: (i) you may
+use the software solely for non-commercial educational/classroom
+purposes; (ii) you may not use the Software for direct or indirect
+commercial purposes; (iii) you must comply with licensing restrictions
+set forth in your purchase order or documentation, including per-seat,
+per-student, or other licensing restrictions; and (iv) you will comply
+with all restrictions set forth in this License, including
+restrictions on use and distribution of Target Applications.  No
+rights to use the Software for commercial, for-profit, or
+government-sponsored purposes, direct or indirect, are granted
+hereunder for any Software licensed pursuant to an educational
+discount or similar educational licensing program.
+
+5.Backup Copies.  You may make only one (1) copy of the Software in
+tangible object code form for purposes of backup, provided that such
+copy includes a reproduction of any notices, including without
+limitation patent, copyright, trademark, and confidentiality notices,
+appearing in or on the Software.  Unauthorized copying of the Software
+or of the written materials or other documentation is expressly
+forbidden.
+
+6.Restrictions.  You may not: (i) delete the copyright notices or any
+other proprietary legends on or in the Software; (ii) decompile,
+modify, reverse engineer, disassemble or otherwise reproduce the
+Software, or create derivative works based on the Software; (iii)
+copy, rent, lend, lease, sublicense, distribute, assign, or
+commercially exploit the Software; or (iv) use the Software in any
+manner that could damage, disable, overburden, or impair Evolution's
+or any other party's search services, servers, or other services.
+
+7.Third Party Software.  The University of British Columbia ("UBC")
+retains all property, right, title and interest in and to the Object
+Recognition Software Module and without limitation, all UBC trademarks
+and other intellectual property rights in the Object Recognition
+Software Module.  Evolution has obtained the right from UBC to grant
+licenses of the Object Recognition Software Module and related
+documentation, if any, to other parties.  Except as and only to the
+extent expressly permitted in this License or by applicable law, you
+may not copy, decompile, reverse engineer, disassemble, or modify the
+Object Recognition Software Module, and you may not copy, modify,
+distribute or create derivative works of the Object Recognition
+Software Module documentation, if any.  The use of any other third
+party materials included in the Software shall be governed by the
+applicable third party license agreements and not by this License,
+whether such third party license agreements are presented for
+acceptance the first time that the third party software is invoked, is
+included in a file in electronic form, or is included in printed form.
+
+8.Ownership and Relationship of Parties.  Evolution and Evolution
+licensors own all right, title, and interest in and to the Software.
+This License grants you no right, title, or ownership interest in any
+intellectual property owned or licensed by Evolution, including the
+Software and Evolution and third party trademarks.  You agree that you
+will use the Software for your own use only, and will not in any way
+rent, loan, subcontract, or otherwise commercially exploit the
+Software.  All rights in any third party data, any third party
+software, and any third party data servers, including all ownership
+rights, are reserved and remain with the respective third parties. You
+agree that these third parties may enforce their rights under this
+License against you directly in their own name.  The Software is
+protected by one or more of the following U.S. patents: 6,711,293, and
+other patents pending.
+
+9.Support and Maintenance.  Except as may be provided in a separate
+maintenance and support agreement, Evolution shall be under no
+obligation to maintain or support the Software, or furnish you with
+any further assistance, documentation, or information of any nature.
+Evolution shall have no obligation under this License for corrections
+of errors or problems that are due to your development related to the
+Software, or that cannot be remedied due to the operational
+characteristics of the computer equipment on which the Software is
+used.
+
+10.Confidentiality.  The Software contains valuable trade secrets of
+Evolution and Evolution's licensors, the unauthorized disclosure of
+which would cause irreparable harm to Evolution and/or its licensors.
+You shall not disclose the Software, nor any terms, conditions, or
+prices contained in this License, to any third parties and shall not
+use the Software other than for the purposes authorized by this
+License. This confidentiality obligation shall continue after any
+termination of this License.
+
+11.Termination.  Either party may terminate this License: (i)
+immediately by written notice upon material breach by the other party
+of this License, if such breach cannot be remedied; or (ii) by written
+notice if the other party fails to cure any remediable material breach
+of this License within thirty (30) days of receipt of written notice
+of such breach.  The parties waive and release each other from any
+claim to compensation or indemnity related to the permitted or lawful
+termination of this License.  Upon termination, you must uninstall,
+remove, and delete all copies and installations of the Software, and
+all rights granted under this License shall immediately cease.
+
+12.Disclaimer of Warranty on Software.  Evolution disclaims any
+responsibility for any harm resulting from your use of the Software.
+The software is provided "As Is," with no warranties
+whatsoever.  Evolution expressly disclaims to the fullest extent
+permitted by law all express, implied, and statutory warranties,
+including, without limitation, the warranties of merchantability,
+fitness for a particular purpose, and non-infringement of proprietary
+rights.  Evolution disclaims any warranties regarding the security,
+reliability, timeliness, and performance of the software.  You
+understand and agree that YOUR use OF the software IS at your own
+discretion and risk and that you will be solely responsible for any
+damages to your computer system or loss of data that results from the
+use of the software.  Some states or other jurisdictions do not allow
+the exclusion of implied warranties, so the above exclusions may not
+apply to you.  You may also have other rights that vary from state to
+state and jurisdiction to jurisdiction.
+
+THE SOFTWARE IS NOT DESIGNED, INTENDED, OR LICENSED FOR USE IN
+HAZARDOUS ENVIRONMENTS or applications REQUIRING FAIL-SAFE CONTROLS,
+INCLUDING WITHOUT LIMITATION, THE DESIGN, CONSTRUCTION, MAINTENANCE OR
+OPERATION OF NUCLEAR FACILITIES, AIRCRAFT NAVIGATION, control OR
+COMMUNICATION SYSTEMS, AIR TRAFFIC, LIFE SUPPORT, WEAPONS SYSTEMS, or
+other applications involving inherent risk to Human life or property.
+EVOLUTION SPECIFICALLY DISCLAIMS ANY EXPRESS OR IMPLIED WARRANTY OF
+FITNESS FOR SUCH PURPOSEs, and notwithstanding anything to the
+contrary contained herein, no license is granted to YOU to use the
+software in any such application.
+
+13.Limitation of Liability.  Under no circumstances shall Evolution be
+liable to you on account of your use or misuse of the software.  Such
+limitation of liability shall apply to prevent recovery of direct,
+indirect, incidental, consequential, special, exemplary, and punitive
+damages whether such claim is based on warranty, contract, tort
+(including negligence), or otherwise (even if Evolution has been
+advised of the possibility of such damages).  Such limitation of
+liability shall apply whether the damages arise from use or misuse of
+and reliance on the software, from inability to use the software, or
+from the interruption, suspension, or termination of the software
+(including such damages incurred by third parties).  Such limitation
+shall apply notwithstanding a failure of essential purpose of any
+limited remedy and to the fullest extent permitted by law.  Some
+states or other jurisdictions do not allow the exclusion or limitation
+of liability for incidental or consequential damages, so the above
+limitations and exclusions may not apply to you.  IN NO EVENT SHALL
+EVOLUTION'S TOTAL LIABILITY TO YOU FOR ALL DAMAGES ARISING UNDER THIS
+LICENSE EXCEED THE TOTAL AMOUNT PAID BY YOU FOR THE SOFTWARE
+LICENSE(S) SET FORTH HEREIN.
+
+14.Remedies.  If the Software is found to infringe any third party
+rights as determined by a court of final appeal, or in Evolution's
+opinion is likely to be found to infringe, Evolution may elect to (i)
+obtain for you the right to continue using the Software; (ii) replace
+or modify the Software so that it becomes non-infringing; or if
+neither of these alternatives is reasonably available, (iii) terminate
+this License and refund your net book value for the Software.
+Evolution has no obligation under this License for any claims that
+result from (a) use of the Software in combination with any equipment,
+software or data not provided by Evolution; (b) Evolution's compliance
+with designs or specifications provided by you; or (c) modification of
+the Software not performed by Evolution. THIS SECTION STATES THE
+ENTIRE LIABILITY OF Evolution, AND YOUR EXCLUSIVE REMEDIES, FOR CLAIMS
+OF INFRINGEMENT.
+
+15.Export Control. You may not use, acquire, ship, transport, export,
+or re-export the Software, except as authorized by Evolution and as
+permitted by applicable law.  The Software may not be acquired,
+shipped, transported, exported, or re-exported (i) into any
+U.S. embargoed country, (ii) to a national or resident of any
+U.S. embargoed country, or (iii) to anyone on the U.S. Treasury
+Department's list of Specially Designated Nationals or the
+U.S. Department of Commerce's Table of Denial Orders. You represent
+and warrant that you are not located in, under the control of, or a
+national or resident of any such country or on any such list.
+
+16.Government End Users.  If the Software is supplied to or on behalf
+of the United States Government, then the Software is deemed to be
+"commercial software" as that term is used in the Federal Acquisition
+Regulation system.  Rights of the United States shall not exceed the
+minimum rights set forth in FAR 52.227-19 for "restricted computer
+software".  All other terms and conditions of this License apply.
+
+17.Indemnification.  You agree to indemnify and hold Evolution and its
+affiliates and each of their employees, contractors, agents, officers,
+and directors harmless from any claim or demand, including reasonable
+attorneys' fees, made by any third party in connection with or arising
+out of your use of the Software, the Target Applications, your
+violation of any terms or conditions of this License, your violation
+of applicable laws, or your violation of the rights of any other
+person or entity.
+
+18.Choice of Law and Venue.  This license shall be governed by and
+construed in accordance with the laws of the state of California,
+exclusive of its choice of law or conflicts of law rules.  The
+exclusive venue for all litigation regarding or arising out of this
+license shall be in Los Angeles County, California and you agree to
+submit to the jurisdiction of the courts in Los Angeles County,
+California for such litigation. The United Nations Convention on the
+International Sale of Goods does not apply to this License.
+
+19.Miscellaneous.  Nothing herein shall be deemed to supersede or
+derogate from Evolution's remedies at law for any violation of this
+License or applicable law.  If any provision of this License is
+unenforceable, the rest of it shall remain in effect. This License
+constitutes the entire integrated agreement between you and Evolution
+with respect to the use of the Software and supersedes all prior or
+contemporaneous oral or written communications and representations
+with respect to the Software or any other subject matter covered by
+this License.  Any express waiver or failure to exercise promptly any
+right under this License will not create a continuing waiver or any
+expectation of non-enforcement. Failure by either party to enforce any
+provision of this License shall not be deemed to be a waiver of future
+enforcement of that or any other provision or right granted hereunder.
+You may not assign this License or any of the rights granted under
+this License either in whole or in part without the prior written
+consent of Evolution, and any attempted assignment or delegation
+without such consent will be void.  No amendment to this License will
+be effective unless in a writing signed by a duly authorized
+representative of each party.
+ 

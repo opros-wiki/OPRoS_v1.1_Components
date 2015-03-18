@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="euc-kr"?>
+<OPRoSProject>
+	<name>SpeechComp_V0.2_20100503_Source</name>
+	<src>D:/packagingOPRoS/OPRoS/OprosTools/eclipse-java-indigo-SR1-win32_type2/workspace3/SpeechComp_V0.2_20100503_Source/SpeechComp</src>
+	<bin>D:/packagingOPRoS/OPRoS/OprosTools/eclipse-java-indigo-SR1-win32_type2/workspace3/SpeechComp_V0.2_20100503_Source/SpeechComp</bin>
+	<language>MSVC C++</language>
+	<location>D:/packagingOPRoS/OPRoS/OprosTools/eclipse-java-indigo-SR1-win32_type2/workspace3</location>
+	<components>
+		<component>SpeechComp</component>
+	</components>
+</OPRoSProject>
+

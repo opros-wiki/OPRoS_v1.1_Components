@@ -1,0 +1,8 @@
+
+; ObjectTrackingByOpticalFlow.def 
+
+LIBRARY      "ObjectTrackingByOpticalFlow"
+
+EXPORTS
+    ; 
+	

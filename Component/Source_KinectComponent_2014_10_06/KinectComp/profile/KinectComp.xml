@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="euc-kr"?>
+<component_profile>
+	<id>ecd40ee3-b587-4d1e-8de5-b261e70f82eb</id>
+	<name>KinectComp</name>
+	<version>1.0</version>
+	<layout>453,252,250,200</layout>
+	<collapsed>0</collapsed>
+	<copyright>
+		<company>
+			<name />
+			<phone />
+			<address />
+			<homepage />
+		</company>
+		<license_policy>LGPL</license_policy>
+	</copyright>
+	<execution_environment>
+		<library_type>dll</library_type>
+		<library_name>KinectComp.dll</library_name>
+		<impl_language>MSVC C++</impl_language>
+		<compiler>MSVC</compiler>
+		<app_domain />
+		<app_robot />
+	</execution_environment>
+	<execution_semantics>
+		<type>periodic</type>
+		<period>30</period>
+		<priority>5</priority>
+		<instance_creation>multiple</instance_creation>
+		<lifecycle_type>start</lifecycle_type>
+	</execution_semantics>
+	<properties>
+           <property name="APIName" type="string">MicrosoftKinect</property>
+           <property name="Width" type="int">640</property>
+           <property name="Height" type="int">480</property>
+	   <property name="KinectIndex" type="int">0</property>
+	   <property name="NearMode" type="bool">false</property>
+	   <property name="SkeletonTrackingMode" type="bool">true</property>
+	</properties>
+	<data_type_list />
+	<defined_data_types />
+	<defined_service_types>
+		<defined_service_type>KinectService.xml</defined_service_type>
+	</defined_service_types>
+	<ports>
+		<service_port>
+			<name>KinectService</name>
+			<description />
+			<type>KinectService</type>
+			<usage>provided</usage>
+			<reference>KinectService.xml</reference>
+			<layout>687,396,125,32</layout>
+		</service_port>
+		<event_port>
+			<name>KinectEvent</name>
+			<description />
+			<data_type>KinectEvent</data_type>
+			<usage>output</usage>
+			<layout>687,275,124,32</layout>
+		</event_port>
+	</ports>
+</component_profile>
+

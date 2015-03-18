@@ -1,0 +1,55 @@
+
+OUTDIR=.\Release
+INTDIR=.\Release
+OutDir=.\Release
+
+BOOST_INC=./boost/include/boost-1_38 # change this with your boost include path
+	
+BOOST_LIB=./boost/lib                # change this with your boost lib path
+	
+OPROS_INC="D:\OPRos/Engine/include"
+OPROS_LIB="D:\OPRos/Engine/$(ConfigurationName)"
+
+PROJECT=ColorTracking
+TARGET= $(PROJECT).dll
+OBJ1 =   $(PROJECT).obj
+#OBJ2 =  some.obj
+
+ALL: $(OUTDIR)\$(TARGET)
+
+CLEAN: 
+	-@erase "$(INTDIR)\$(TARGET)"
+	-@erase "$(INTDIR)\$(OBJ1)"
+	-@erase "$(INTDIR)\$(PROJECT).lib"
+#	-@erase "$(INTDIR)\$(OBJ2)"
+	
+	
+
+$(OUTDIR) :
+	if not exist "$(OUTDIR)/$(NULL)" mkdir "$(OUTDIR)"
+	
+INC = /I "$(BOOST_INC)" /I "$(OPROS_INC)"
+
+CPP=cl.exe
+
+CPP_PROJ=/O2 /Oi $(INC) /GL /D "WIN32" /D "_WINDOWS" /D "NDEBUG" /D "_USRDLL" /D "_WINDLL" /D "_AFXDLL" /D "_UNICODE" \
+ /D "UNICODE" /FD /EHsc /MD /Gy /Fo"$(INTDIR)\\" /Fd"$(INTDIR)\\" /W0 /nologo /c /Zi /TP /errorReport:prompt
+
+.cpp{$(INTDIR)}.obj::
+	$(CPP) $(CPP_PROJ) $< 
+
+LINK32=link.exe
+LINK32_FLAGS=/OUT:"$(OUTDIR)\$(TARGET)" /INCREMENTAL:NO /NOLOGO /libpath:"$(BOOST_LIB)" /libpath:"$(OPROS_LIB)" \
+	/DLL /MANIFEST /DEBUG /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /DYNAMICBASE /NXCOMPAT /MACHINE:X86 /ERRORREPORT:PROMPT \
+	OCECDL.lib 
+
+
+LINK32_OBJS= \
+	"$(INTDIR)\$(OBJ1)" 
+#	"$(INTDIR)\$(OBJ2)"
+	
+	
+$(OUTDIR)\$(TARGET) : $(OUTDIR) $(DEF_FILE) $(LINK32_OBJS)
+	$(LINK32) $(LINK32_FLAGS) $(LINK32_OBJS)	
+
+

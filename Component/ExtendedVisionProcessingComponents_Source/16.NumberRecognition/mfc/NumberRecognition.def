@@ -1,0 +1,8 @@
+
+; NumberRecognition.def 
+
+LIBRARY      "NumberRecognition"
+
+EXPORTS
+    ; 
+	

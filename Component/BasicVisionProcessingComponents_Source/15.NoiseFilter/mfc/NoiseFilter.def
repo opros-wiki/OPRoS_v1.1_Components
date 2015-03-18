@@ -1,0 +1,8 @@
+
+; NoiseFilter.def 
+
+LIBRARY      "NoiseFilter"
+
+EXPORTS
+    ; 
+	

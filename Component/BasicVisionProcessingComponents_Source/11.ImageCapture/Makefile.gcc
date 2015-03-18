@@ -1,0 +1,36 @@
+
+OUTDIR=.\Release
+INTDIR=.\Release
+OutDir=.\Release
+
+BOOST_INC=./boost/include/boost-1_38 # change this with your boost include path
+	
+BOOST_LIB=./boost/lib                # change this with your boost lib path
+	
+OPROS_INC="D:\OPRos/Engine/include"
+OPROS_LIB="D:\OPRos/Engine/$(ConfigurationName)"
+SO_TYPE	= so                         # shared object extensions (so or dll)
+
+PROJECT = ImageCapture
+
+INC = -I$(BOOST_INC) -I$(OPROS_INC)
+
+CXXFLAGS = -O2 -Wall -fmessage-length=0 -mthreads -fPIC $(INC)
+
+LFLAGS = -L$(BOOST_LIB) -L$(OPROS_LIB)
+
+OBJS1 = $(PROJECT).o
+
+LIBS = -loproscdl -lboost_iostreams-mgw34-mt -lboost_serialization-mgw34-mt
+
+TARGET = $(PROJECT).$(SO_TYPE)
+
+$(TARGET): $(OBJS1)
+	$(CXX) $(LFLAGS) -shared -Wl,-soname,$@ -o $@ $(OBJS1) $(LIBS)
+
+all: $(TARGET)
+
+default: $(TARGET)
+
+clean:
+	del -f $(OBJS1) $(TARGET)

@@ -1,0 +1,8 @@
+The evolution_peripherals software package is based in part on the
+USB Lego Tower driver v0.5, Copyright (C) 2001, Juergen Stuber <stuber@loria.fr>.
+
+All subsequent development is Copyright (C) 2003-2005, Evolution Robotics, Inc.
+
+The evolution_peripherals software package is released under the GNU
+Public License. See GPL.txt for details.
+

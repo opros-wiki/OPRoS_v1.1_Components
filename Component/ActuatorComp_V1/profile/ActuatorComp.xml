@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="euc-kr"?>
+<component_profile>
+  <id>dbd4837b-59e8-4650-be20-ddd04265ca8a</id>
+  <name>ActuatorComp</name>
+  <version>1.0</version>
+  <layout>100,150,519,518</layout>
+  <collapsed>0</collapsed>
+  <copyright>
+    <company>
+      <name>KITECH</name>
+      <phone />
+      <address />
+      <homepage />
+    </company>
+    <license_policy>LGPL</license_policy>
+  </copyright>
+  <execution_environment>
+    <library_type>dll</library_type>
+    <library_name>ActuatorComp.dll</library_name>
+    <impl_language>MSVC C++</impl_language>
+    <compiler>MSVC</compiler>
+    <app_domain />
+    <app_robot />
+  </execution_environment>
+  <execution_semantics>
+    <type>passive</type>
+    <period>100</period>
+    <priority>5</priority>
+    <instance_creation>multiple</instance_creation>
+    <lifecycle_type>start</lifecycle_type>
+  </execution_semantics>
+  <properties>
+    <property name="ApiName" type="string">ActuatorApi</property>
+    <property name="JointType" type="int">0</property>
+    <property name="PowerUnit" type="int">3</property>
+  </properties>
+  <data_type_list />
+  <defined_data_types />
+  <defined_service_types>
+    <defined_service_type>ActuatorService.xml</defined_service_type>
+  </defined_service_types>
+  <ports>
+    <service_port>
+      <name>ActuatorService</name>
+      <description />
+      <type>ActuatorService</type>
+      <usage>provided</usage>
+      <reference>ActuatorService.xml</reference>
+      <layout>603,320,131,32</layout>
+    </service_port>
+  </ports>
+</component_profile>

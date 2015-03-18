@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="euc-kr"?>
+<service_port_type_profile>
+	<service_port_type>
+		<type_name>GyroSensorService</type_name>
+		<method name="SetParameter" return_type="ReturnType" call_type="blocking">
+			<param index="1">
+				<name>parameter</name>
+				<type>Property</type>
+			</param>
+		</method>
+		<method name="GetParameter" return_type="Property" call_type="blocking" />
+		<method name="GetError" return_type="ReturnType" call_type="blocking" />
+		<method name="Enable" return_type="ReturnType" call_type="blocking" />
+		<method name="Disable" return_type="ReturnType" call_type="blocking" />
+		<method name="GetSensorValue" return_type="vector&lt;ObjectRotation&gt;" call_type="blocking" />
+	</service_port_type>
+</service_port_type_profile>
+

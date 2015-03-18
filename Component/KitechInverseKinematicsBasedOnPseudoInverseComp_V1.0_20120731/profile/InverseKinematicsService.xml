@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="euc-kr"?>
+<service_port_type_profile>
+	<service_port_type>
+		<type_name>InverseKinematicsService</type_name>
+		<method name="SetParameter" return_type="ReturnType" call_type="blocking">
+			<param index="1">
+				<name>parameter</name>
+				<type>Property</type>
+			</param>
+		</method>
+		<method name="GetParameter" return_type="Property" call_type="blocking" />
+		<method name="GetError" return_type="ReturnType" call_type="blocking" />
+		<method name="SolveForwardKinematics" return_type="ObjectPosition" call_type="blocking">
+			<param index="1">
+				<name>actualJointPosition</name>
+				<type>vector&lt;double&gt;</type>
+			</param>
+		</method>
+		<method name="SolveInverseKinematics" return_type="vector&lt;double&gt;" call_type="blocking">
+			<param index="1">
+				<name>actualJointPosition</name>
+				<type>vector&lt;double&gt;</type>
+			</param>
+			<param index="2">
+				<name>desiredPosition</name>
+				<type>ObjectPosition</type>
+			</param>
+		</method>
+	</service_port_type>
+</service_port_type_profile>
+

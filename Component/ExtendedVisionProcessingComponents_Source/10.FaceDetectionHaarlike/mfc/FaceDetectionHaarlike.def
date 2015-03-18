@@ -1,0 +1,8 @@
+
+; FaceDetectionHaarlike.def 
+
+LIBRARY      "FaceDetectionHaarlike"
+
+EXPORTS
+    ; 
+	

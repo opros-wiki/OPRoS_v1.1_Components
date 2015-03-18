@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="euc-kr"?>
+<OPRoSProject>
+	<name>KinectComponent</name>
+	<src>C:/Users/Administrator/Desktop/KinectComponent/KinectComp</src>
+	<bin>C:/Users/Administrator/Desktop/KinectComponent/KinectComp</bin>
+	<language>MSVC C++</language>
+	<location>C:/Users/Administrator/Desktop</location>
+	<components>
+		<component>KinectComp</component>
+	</components>
+</OPRoSProject>
+

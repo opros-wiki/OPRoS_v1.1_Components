@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="euc-kr"?>
+<service_port_type_profile>
+	<service_port_type>
+		<type_name>BatteryManagementSystemService</type_name>
+		<method name="SetParameter" return_type="ReturnType" call_type="blocking">
+			<param index="1">
+				<name>parameter</name>
+				<type>Property</type>
+			</param>
+		</method>
+		<method name="GetParameter" return_type="Property" call_type="blocking" />
+		<method name="GetError" return_type="ReturnType" call_type="blocking" />
+		<method name="Enable" return_type="ReturnType" call_type="blocking" />
+		<method name="Disable" return_type="ReturnType" call_type="blocking" />
+		<method name="GetChargingRate" return_type="double" call_type="blocking" />
+		<method name="GetVoltage" return_type="double" call_type="blocking" />
+		<method name="GetCellVoltage" return_type="vector&lt;double&gt;" call_type="blocking" />
+	</service_port_type>
+</service_port_type_profile>
+

@@ -1,0 +1,7 @@
+<data_type>
+   <struct name="Coodinates">
+       <item type="double">x</item>
+       <item type="double">y</item>
+       <item type="double">z</item>
+   </struct>
+</data_type>

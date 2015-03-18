@@ -1,0 +1,8 @@
+
+; AreaDetection.def 
+
+LIBRARY      "AreaDetection"
+
+EXPORTS
+    ; 
+	

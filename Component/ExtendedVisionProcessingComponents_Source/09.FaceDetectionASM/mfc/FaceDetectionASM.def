@@ -1,0 +1,8 @@
+
+; FaceDetectionASM.def 
+
+LIBRARY      "FaceDetectionASM"
+
+EXPORTS
+    ; 
+	

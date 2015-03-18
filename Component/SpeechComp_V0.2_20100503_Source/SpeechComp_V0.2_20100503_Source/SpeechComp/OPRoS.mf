@@ -1,0 +1,6 @@
+Manifest-Version:1.0
+Archive-type:OPRoS_Component
+Archive-name:SpeechComp.tar
+Archive-description:
+Archive-Element:SpeechComp.xml
+

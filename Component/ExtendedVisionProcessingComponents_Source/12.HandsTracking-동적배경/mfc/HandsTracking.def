@@ -1,0 +1,8 @@
+
+; HandsTracking.def 
+
+LIBRARY      "HandsTracking"
+
+EXPORTS
+    ; 
+	

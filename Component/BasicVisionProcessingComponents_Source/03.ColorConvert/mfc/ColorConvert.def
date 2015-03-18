@@ -1,0 +1,8 @@
+
+; ColorConvert.def 
+
+LIBRARY      "ColorConvert"
+
+EXPORTS
+    ; 
+	

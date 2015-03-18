@@ -1,0 +1,29 @@
+﻿Build started 2012-03-18 오후 3:59:27.
+     1>Project "D:\Works\OPRoS_V2_0\OprosDevelopment\IDE\ComponentSource\WheelControllerComp\WheelControllerComp.vcxproj" on node 3 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Release\WheelControllerComp.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+       ManifestResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Works\OPRoS_V2_0\Release\WheelControllerComp.dll" /INCREMENTAL /NOLOGO /LIBPATH:..\..\..\IDE\CommonLibrary\lib OPRoSCDL.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\WheelControllerComp.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\Works\OPRoS_V2_0\Release\WheelControllerComp.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Works\OPRoS_V2_0\Release\WheelControllerComp.lib" /MACHINE:X86 /DLL Release\WheelControllerComp.dll.embed.manifest.res
+         Release\WheelControllerComp.obj
+     1>LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/LTCG' specification
+            Creating library D:\Works\OPRoS_V2_0\Release\WheelControllerComp.lib and object D:\Works\OPRoS_V2_0\Release\WheelControllerComp.exp
+         Generating code
+         Finished generating code
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Release\WheelControllerComp.dll.embed.manifest" /manifest Release\WheelControllerComp.dll.intermediate.manifest
+         All outputs are up-to-date.
+       LinkEmbedManifest:
+         All outputs are up-to-date.
+         WheelControllerComp.vcxproj -> D:\Works\OPRoS_V2_0\Release\WheelControllerComp.dll
+       FinalizeBuildStatus:
+         Deleting file "Release\WheelControllerComp.unsuccessfulbuild".
+         Touching "Release\WheelControllerComp.lastbuildstate".
+     1>Done Building Project "D:\Works\OPRoS_V2_0\OprosDevelopment\IDE\ComponentSource\WheelControllerComp\WheelControllerComp.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.96

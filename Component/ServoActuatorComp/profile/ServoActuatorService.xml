@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="euc-kr"?>
+<service_port_type_profile>
+	<service_port_type>
+		<type_name>ServoActuatorService</type_name>
+		<method name="SetParameter" return_type="ReturnType" call_type="blocking">
+			<param index="1">
+				<name>parameter</name>
+				<type>Property</type>
+			</param>
+		</method>
+		<method name="GetParameter" return_type="Property" call_type="blocking" />
+		<method name="GetError" return_type="ReturnType" call_type="blocking" />
+		<method name="Enable" return_type="ReturnType" call_type="blocking" />
+		<method name="Disable" return_type="ReturnType" call_type="blocking" />
+		<method name="SetPower" return_type="ReturnType" call_type="blocking">
+			<param index="1">
+				<name>power</name>
+				<type>double</type>
+			</param>
+			<param index="2">
+				<name>time</name>
+				<type>unsigned long</type>
+			</param>
+		</method>
+		<method name="GetPower" return_type="double" call_type="blocking" />
+		<method name="SetVelocity" return_type="ReturnType" call_type="blocking">
+			<param index="1">
+				<name>velocity</name>
+				<type>double</type>
+			</param>
+			<param index="2">
+				<name>time</name>
+				<type>unsigned long</type>
+			</param>
+		</method>
+		<method name="GetVelocity" return_type="double" call_type="blocking" />
+		<method name="SetPosition" return_type="ReturnType" call_type="blocking">
+			<param index="1">
+				<name>position</name>
+				<type>double</type>
+			</param>
+			<param index="2">
+				<name>time</name>
+				<type>unsigned long</type>
+			</param>
+		</method>
+		<method name="GetPosition" return_type="double" call_type="blocking" />
+	</service_port_type>
+</service_port_type_profile>
+

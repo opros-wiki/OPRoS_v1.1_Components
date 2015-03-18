@@ -1,0 +1,10 @@
+The evolution_rcm software package is based on the FTDI_SIO Linux
+kernel module, written by Bill Ryder - bryder@sgi.com of Silicon
+Graphics, Inc.
+
+All subsequent development is Copyright (C) 2002-2005, Evolution Robotics, Inc.
+
+The evolution_rcm software package is released under the GNU Public
+License. See GPL.txt for details.
+
+

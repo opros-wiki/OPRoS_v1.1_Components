@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="euc-kr"?>
+<component_profile>
+  <id>86c510bc-9157-437e-b4dd-391f9e105ef1</id>
+  <name>TorqueSensorComp</name>
+  <version>1.0</version>
+  <layout>152,136,434,317</layout>
+  <collapsed>0</collapsed>
+  <copyright>
+    <company>
+      <name>KITECH</name>
+      <phone />
+      <address />
+      <homepage />
+    </company>
+    <license_policy>LGPL</license_policy>
+  </copyright>
+  <execution_environment>
+    <library_type>dll</library_type>
+    <library_name>TorqueSensorComp.dll</library_name>
+    <impl_language>MSVC C++</impl_language>
+    <compiler>MSVC</compiler>
+    <app_domain />
+    <app_robot />
+  </execution_environment>
+  <execution_semantics>
+    <type>periodic</type>
+    <period>100</period>
+    <priority>5</priority>
+    <instance_creation>multiple</instance_creation>
+    <lifecycle_type>start</lifecycle_type>
+  </execution_semantics>
+  <properties>
+    <property name="ApiName" type="string">TorqueSensorApi</property>
+  </properties>
+  <data_type_list />
+  <defined_data_types />
+  <defined_service_types>
+    <defined_service_type>TorqueSensorService.xml</defined_service_type>
+  </defined_service_types>
+  <ports>
+    <service_port>
+      <name>TorqueSensorService</name>
+      <description />
+      <type>TorqueSensorService</type>
+      <usage>provided</usage>
+      <reference>TorqueSensorService.xml</reference>
+      <layout>570,252,170,32</layout>
+    </service_port>
+    <data_port>
+      <name>torqueSensorData</name>
+      <description />
+      <data_type>vector&lt;double&gt;</data_type>
+      <usage>output</usage>
+      <reference />
+      <layout>570,343,147,32</layout>
+    </data_port>
+  </ports>
+</component_profile>
+

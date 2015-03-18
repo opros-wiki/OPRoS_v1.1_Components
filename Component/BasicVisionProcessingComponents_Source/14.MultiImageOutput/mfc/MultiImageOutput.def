@@ -1,0 +1,8 @@
+
+; MultiImageOutput.def 
+
+LIBRARY      "MultiImageOutput"
+
+EXPORTS
+    ; 
+	

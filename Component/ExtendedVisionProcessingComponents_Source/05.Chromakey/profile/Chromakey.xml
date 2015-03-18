@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component_profile>
+	<name>Chromakey</name>
+	<description>Chromakey Component</description>
+	<execution_environment> 
+		<os name="Windows7" version="none"></os>
+		<cpu>x86</cpu>
+		<library_type>dll</library_type>
+		<library_name>Chromakey.dll</library_name>
+		<impl_language>c++</impl_language>
+		<compiler>MSVS 2008</compiler>
+	</execution_environment>
+	<execution_semantics>
+		<type>periodic</type>
+		<period>100</period>
+		<priority>1</priority>
+		<creation_type>singleton</creation_type> 
+		<lifecycle_type>start</lifecycle_type> 
+	</execution_semantics>
+
+	<properties>
+		<property name="low_h" type="int">90</property>
+		<property name="high_h" type="int">110</property>
+		<property name="polly_hull" type="int">1</property>
+		<property name="perimScale" type="int">4</property>
+		<property name="num" type="int">0</property>
+		<property name="approx_level" type="int">2</property>
+		<property name="morpology_repeat" type="int">1</property>
+	</properties>
+
+	<ports>
+		<data_port>
+			<name>ImageIn1</name>
+			<usage>input</usage>
+			<queuing_policy>LAST</queuing_policy>
+			<queue_size>1</queue_size>
+			<data_type>RawImage</data_type>
+		</data_port>
+		<data_port>
+			<name>ImageIn2</name>
+			<usage>input</usage>
+			<queuing_policy>LAST</queuing_policy>
+			<queue_size>1</queue_size>
+			<data_type>RawImage</data_type>
+		</data_port>
+		<data_port>
+			<name>ImageOut</name>
+			<usage>output</usage>
+			<queuing_policy>LAST</queuing_policy>
+			<queue_size>1</queue_size>
+			<data_type>RawImage</data_type>
+		</data_port>
+	</ports>
+	
+</component_profile>

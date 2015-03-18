@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="euc-kr"?>
+<component_profile>
+	<id>c9b340fc-009a-4f07-818e-29fc0afdf655</id>
+	<name>KITECH_OccupancyGridGlobalMapComp</name>
+	<version>1.0</version>
+	<description>Occupancy Grid Global Map Component</description>
+	<copyright>
+		<company>
+			<name>KITECH</name>
+			<phone />
+			<address />
+			<homepage />
+		</company>
+		<license_policy>OPRoS</license_policy>
+	</copyright>
+	<execution_environment>
+		<os name="Windows" version="XP" />
+		<library_type>dll</library_type>
+		<library_name>KITECH_OccupancyGridGlobalMapComp.dll</library_name>
+		<impl_language>MSVC C++</impl_language>
+		<compiler>MSVC</compiler>
+		<app_domain />
+		<app_robot />
+	</execution_environment>
+	<execution_semantics>
+		<type>passive</type>
+		<period />
+		<priority>5</priority>
+		<instance_creation>multiple</instance_creation>
+		<lifecycle_type>start</lifecycle_type>
+	</execution_semantics>
+  <properties>
+    <property name="MapFileName" type="string">test_map.bmp</property>
+    <property name="MapResolution" type="double">0.01</property>
+    <property name="MapWidth" type="int">0</property>
+    <property name="MapHeight" type="int">0</property>
+    <property name="LaserSensorStartAngle" type="double">0</property>
+    <property name="LaserSensorEndAngle" type="double">0</property>
+    <property name="LaserSensorMinimumRange" type="double">0</property>
+    <property name="LaserSensorMaximumRange" type="double">0</property>
+    <property name="LaserSensorCount" type="int">0</property>
+  </properties>
+	<data_type_list />
+	<ports>
+		<service_port>
+			<name>GlobalMapCompService</name>
+			<description />
+			<type>GlobalMapCompService</type>
+			<usage>provided</usage>
+			<reference>GlobalMapCompService.xml</reference>
+		</service_port>
+	</ports>
+</component_profile>
+

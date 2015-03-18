@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="euc-kr"?>
+<service_port_type_profile>
+	<service_port_type>
+		<type_name>TrajectoryGenerationService</type_name>
+		<method name="SetParameter" return_type="ReturnType" call_type="blocking">
+			<param index="1">
+				<name>parameter</name>
+				<type>Property</type>
+			</param>
+		</method>
+		<method name="GetParameter" return_type="Property" call_type="blocking" />
+		<method name="GetError" return_type="ReturnType" call_type="blocking" />
+		<method name="GenerateTrajectory" return_type="ReturnType" call_type="blocking">
+			<param index="1">
+				<name>path</name>
+				<type>vector&lt; valarray&lt;double&gt; &gt;</type>
+			</param>
+			<param index="2">
+				<name>deltaTime</name>
+				<type>double</type>
+			</param>
+		</method>
+		<method name="GetAcceleration" return_type="vector &lt; valarray&lt;double&gt; &gt;" call_type="blocking" />
+		<method name="GetVelocity" return_type="vector &lt; valarray&lt;double&gt; &gt;" call_type="blocking" />
+		<method name="GetPosition" return_type="vector &lt; valarray&lt;double&gt; &gt;" call_type="blocking" />
+	</service_port_type>
+</service_port_type_profile>
+

@@ -1,0 +1,8 @@
+
+; BirdsEyeView.def 
+
+LIBRARY      "BirdsEyeView"
+
+EXPORTS
+    ; 
+	

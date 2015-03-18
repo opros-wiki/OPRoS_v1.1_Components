@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="euc-kr"?>
+<component_profile>
+	<id>e9f7e4ed-0fed-41b6-94cf-bd0b6e1adfff</id>
+	<name>BumperSensorComp</name>
+	<version>1.0</version>
+	<layout>100,150,509,493</layout>
+	<collapsed>0</collapsed>
+	<copyright>
+		<company>
+			<name>KITECH</name>
+			<phone />
+			<address />
+			<homepage />
+		</company>
+		<license_policy>LGPL</license_policy>
+	</copyright>
+	<execution_environment>
+		<library_type>dll</library_type>
+		<library_name>BumperSensorComp.dll</library_name>
+		<impl_language>MSVC C++</impl_language>
+		<compiler>MSVC</compiler>
+		<app_domain />
+		<app_robot />
+	</execution_environment>
+	<execution_semantics>
+		<type>periodic</type>
+		<period>100</period>
+		<priority>5</priority>
+		<instance_creation>multiple</instance_creation>
+		<lifecycle_type>start</lifecycle_type>
+	</execution_semantics>
+	<properties>
+		<property name="ApiName" type="string">BumperSensorApi</property>
+		<property name="Size" type="int">1</property>
+		<property name="X0" type="double">0.0</property>
+    <property name="Y0" type="double">0.0</property>
+    <property name="Z0" type="double">0.0</property>
+    <property name="Roll0" type="double">0.0</property>
+    <property name="Pitch0" type="double">0.0</property>
+    <property name="Yaw0" type="double">0.0</property>
+	</properties>
+	<data_type_list />
+	<defined_data_types />
+	<defined_service_types>
+		<defined_service_type>BumperSensorService.xml</defined_service_type>
+	</defined_service_types>
+	<ports>
+		<service_port>
+			<name>BumperSensorService</name>
+			<description />
+			<type>BumperSensorService</type>
+			<usage>provided</usage>
+			<reference>BumperSensorService.xml</reference>
+			<layout>593,287,174,32</layout>
+		</service_port>
+		<data_port>
+			<name>bumperSensorData</name>
+			<description />
+			<data_type>vector&lt;bool&gt;</data_type>
+			<usage>output</usage>
+			<reference />
+			<layout>593,420,154,32</layout>
+		</data_port>
+	</ports>
+</component_profile>
+

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="euc-kr"?>
+<service_port_type_profile>
+	<service_port_type>
+		<type_name>TranslateService</type_name>
+		<method name="Translate" return_type="std::wstring" call_type="blocking">
+			<param index="1">
+				<name>text</name>
+				<type>std::wstring</type>
+			</param>
+			<param index="2">
+				<name>originalLanguageCode</name>
+				<type>std::string</type>
+			</param>
+			<param index="3">
+				<name>translatedLanguageCode</name>
+				<type>std::string</type>
+			</param>
+		</method>
+	</service_port_type>
+</service_port_type_profile>
+

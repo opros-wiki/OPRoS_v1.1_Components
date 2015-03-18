@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="euc-kr"?>
+<component_profile>
+	<id>84fd7451-7859-42c1-969b-3e4dbb2830ad</id>
+	<name>KITECH_TopologicalPathPlanningComp</name>
+	<version>1.0</version>
+	<description>Topological Path Planning Component</description>
+	<copyright>
+		<company>
+			<name>KITECH</name>
+			<phone />
+			<address />
+			<homepage />
+		</company>
+		<license_policy>OPRoS</license_policy>
+	</copyright>
+	<execution_environment>
+		<os name="Windows" version="XP" />
+		<library_type>dll</library_type>
+		<library_name>KITECH_TopologicalPathPlanningComp.dll</library_name>
+		<impl_language>MSVC C++</impl_language>
+		<compiler>MSVC</compiler>
+		<app_domain />
+		<app_robot />
+	</execution_environment>
+	<execution_semantics>
+		<type>passive</type>
+		<period />
+		<priority>5</priority>
+		<instance_creation>multiple</instance_creation>
+		<lifecycle_type>start</lifecycle_type>
+	</execution_semantics>
+	<properties />
+	<data_type_list />
+	<ports>
+		<service_port>
+			<name>PathPlanningService</name>
+			<description />
+			<type>PathPlanningService</type>
+			<usage>provided</usage>
+			<reference>PathPlanningService.xml</reference>
+		</service_port>
+	</ports>
+</component_profile>
+

@@ -1,0 +1,8 @@
+
+; RGBToGray.def 
+
+LIBRARY      "RGBToGray"
+
+EXPORTS
+    ; 
+	

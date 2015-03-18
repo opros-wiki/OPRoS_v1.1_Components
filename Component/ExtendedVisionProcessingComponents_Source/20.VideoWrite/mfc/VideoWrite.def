@@ -1,0 +1,8 @@
+
+; VideoWrite.def 
+
+LIBRARY      "VideoWrite"
+
+EXPORTS
+    ; 
+	

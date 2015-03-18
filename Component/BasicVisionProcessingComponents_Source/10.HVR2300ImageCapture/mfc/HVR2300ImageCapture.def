@@ -1,0 +1,8 @@
+
+; HVR2300ImageCapture.def 
+
+LIBRARY      "HVR2300ImageCapture"
+
+EXPORTS
+    ; 
+	

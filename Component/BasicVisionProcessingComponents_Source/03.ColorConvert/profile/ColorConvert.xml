@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component_profile>
+	<name>ColorConvert</name>
+	<description>ColorConvert Component</description>
+	<execution_environment> 
+		<os name="Windows7" version="none"></os>
+		<cpu>x86</cpu>
+		<library_type>dll</library_type>
+		<library_name>ColorConvert.dll</library_name>
+		<impl_language>c++</impl_language>
+		<compiler>MSVS 2008</compiler>
+	</execution_environment>
+	<execution_semantics>
+		<type>periodic</type>
+		<period>20</period>
+		<priority>1</priority>
+		<creation_type>singleton</creation_type> 
+		<lifecycle_type>start</lifecycle_type> 
+	</execution_semantics>
+	
+	<properties>
+		<property name="TransNum" type="string">RGB</property>
+	</properties>
+
+	<ports>
+		<data_port>
+			<name>ImageOut</name>
+			<usage>output</usage>
+			<data_type>RawImage</data_type>			
+		</data_port>
+
+		<data_port>
+			<name>ImageIn</name>
+			<usage>input</usage>
+			<queuing_policy>LAST</queuing_policy>
+			<queue_size>1</queue_size>
+			<data_type>RawImage</data_type>
+		</data_port>
+	</ports>
+	
+</component_profile>

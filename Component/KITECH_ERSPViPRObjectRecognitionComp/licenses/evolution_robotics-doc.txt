@@ -1,0 +1,5 @@
+The evolution_robotics-doc software package is
+
+Copyright (C) 2001-2005, Evolution Robotics, Inc.
+
+See EVOLUTION-ROBOTICS-EULA.txt for details.

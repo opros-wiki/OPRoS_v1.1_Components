@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="euc-kr"?>
+<service_port_type_profile>
+	<service_port_type>
+		<type_name>SpeechService</type_name>
+		<method name="SetParameter" return_type="bool" call_type="blocking">
+			<param index="1">
+				<name>parameter</name>
+				<type>Property</type>
+			</param>
+		</method>
+		<method name="GetParameter" return_type="Property" call_type="blocking" />
+		<method name="GetError" return_type="int" call_type="blocking" />
+		<method name="PlaySpeech" return_type="bool" call_type="blocking">
+			<param index="1">
+				<name>speechData</name>
+				<type>string</type>
+			</param>
+			<param index="2">
+				<name>mode</name>
+				<type>int</type>
+			</param>
+		</method>
+		<method name="StopSpeech" return_type="bool" call_type="blocking" />
+	</service_port_type>
+</service_port_type_profile>
+

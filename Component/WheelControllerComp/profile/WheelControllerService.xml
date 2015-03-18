@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="euc-kr"?>
+<service_port_type_profile>
+	<service_port_type>
+		<type_name>WheelControllerService</type_name>
+		<method name="SetParameter" return_type="ReturnType" call_type="blocking">
+			<param index="1">
+				<name>parameter</name>
+				<type>Property</type>
+			</param>
+		</method>
+		<method name="GetParameter" return_type="Property" call_type="blocking" />
+		<method name="GetError" return_type="ReturnType" call_type="blocking" />
+		<method name="Enable" return_type="ReturnType" call_type="blocking" />
+		<method name="Disable" return_type="ReturnType" call_type="blocking" />
+		<method name="SetPosition" return_type="ReturnType" call_type="blocking">
+			<param index="1">
+				<name>position</name>
+				<type>ObjectLocation</type>
+			</param>
+		</method>
+		<method name="GetPosition" return_type="ObjectLocation" call_type="blocking" />
+		<method name="GetOdometery" return_type="vector&lt;long&gt;" call_type="blocking" />
+		<method name="DriveWheel" return_type="ReturnType" call_type="blocking">
+			<param index="1">
+				<name>linearVelocity</name>
+				<type>double</type>
+			</param>
+			<param index="2">
+				<name>angularVelocity</name>
+				<type>double</type>
+			</param>
+		</method>
+		<method name="MoveWheel" return_type="ReturnType" call_type="blocking">
+			<param index="1">
+				<name>distance</name>
+				<type>double</type>
+			</param>
+			<param index="2">
+				<name>linearVelocity</name>
+				<type>double</type>
+			</param>
+		</method>
+		<method name="RotateWheel" return_type="ReturnType" call_type="blocking">
+			<param index="1">
+				<name>angle</name>
+				<type>double</type>
+			</param>
+			<param index="2">
+				<name>angularVelocity</name>
+				<type>double</type>
+			</param>
+		</method>
+		<method name="StopWheel" return_type="ReturnType" call_type="blocking" />
+		<method name="IsWheelRunning" return_type="bool" call_type="blocking" />
+	</service_port_type>
+</service_port_type_profile>
+

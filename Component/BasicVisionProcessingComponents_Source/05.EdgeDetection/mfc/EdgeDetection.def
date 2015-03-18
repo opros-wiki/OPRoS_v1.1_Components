@@ -1,0 +1,8 @@
+
+; EdgeDetection.def 
+
+LIBRARY      "EdgeDetection"
+
+EXPORTS
+    ; 
+	

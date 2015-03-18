@@ -1,0 +1,8 @@
+
+; RGBValueControl.def 
+
+LIBRARY      "RGBValueControl"
+
+EXPORTS
+    ; 
+	

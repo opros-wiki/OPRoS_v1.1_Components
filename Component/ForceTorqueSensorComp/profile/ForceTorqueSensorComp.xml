@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="euc-kr"?>
+<component_profile>
+	<id>4e08a512-6d66-4ba0-aa19-399fb952f15f</id>
+	<name>ForceTorqueSensorComp</name>
+	<version>1.0</version>
+	<layout>100,150,250,200</layout>
+	<collapsed>0</collapsed>
+	<copyright>
+		<company>
+			<name>KITECH</name>
+			<phone />
+			<address />
+			<homepage />
+		</company>
+		<license_policy>LGPL</license_policy>
+	</copyright>
+	<execution_environment>
+		<library_type>dll</library_type>
+		<library_name>ForceTorqueSensorComp.dll</library_name>
+		<impl_language>MSVC C++</impl_language>
+		<compiler>MSVC</compiler>
+		<app_domain />
+		<app_robot />
+	</execution_environment>
+	<execution_semantics>
+		<type>periodic</type>
+		<period>100</period>
+		<priority>5</priority>
+		<instance_creation>multiple</instance_creation>
+		<lifecycle_type>start</lifecycle_type>
+	</execution_semantics>
+	<properties>
+		<property name="ApiName" type="string">ForceTorqueSensorApi</property>
+		<property name="Size" type="int">1</property>
+	</properties>
+	<data_type_list />
+	<defined_data_types />
+	<defined_service_types>
+		<defined_service_type>ForceTorqueSensorService.xml</defined_service_type>
+	</defined_service_types>
+	<ports>
+		<service_port>
+			<name>ForceTorqueSensorService</name>
+			<description />
+			<type>ForceTorqueSensorService</type>
+			<usage>provided</usage>
+			<reference>ForceTorqueSensorService.xml</reference>
+			<layout>334,237,206,32</layout>
+		</service_port>
+		<data_port>
+			<name>forceTorqueSensorData</name>
+			<description />
+			<data_type>vector&lt;ForceTorqueSensorData&gt;</data_type>
+			<usage>output</usage>
+			<reference />
+			<layout>334,301,184,32</layout>
+		</data_port>
+	</ports>
+</component_profile>
+

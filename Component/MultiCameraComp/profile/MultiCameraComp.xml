@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="euc-kr"?>
+<component_profile>
+	<id>4c3b42a3-e195-43a0-a638-6ead1d960832</id>
+	<name>MultiCameraComp</name>
+	<version>1.0</version>
+	<layout>102,34,450,385</layout>
+	<collapsed>0</collapsed>
+	<copyright>
+		<company>
+			<name>KITECH</name>
+			<phone />
+			<address />
+			<homepage />
+		</company>
+		<license_policy>LGPL</license_policy>
+	</copyright>
+	<execution_environment>
+		<library_type>dll</library_type>
+		<library_name>MultiCameraComp.dll</library_name>
+		<impl_language>MSVC C++</impl_language>
+		<compiler>MSVC</compiler>
+		<app_domain />
+		<app_robot />
+	</execution_environment>
+	<execution_semantics>
+		<type>periodic</type>
+		<period>100</period>
+		<priority>5</priority>
+		<instance_creation>multiple</instance_creation>
+		<lifecycle_type>start</lifecycle_type>
+	</execution_semantics>
+	<properties>
+		<property name="APIName" type="string">OpenCvUsbMultiCamera.dll</property>
+		<property name="Count" type="int">2</property>
+		<property name="CameraID0" type="int">0</property>
+		<property name="FrameRate0" type="int">30</property>
+		<property name="Width0" type="int">640</property>
+		<property name="Height0" type="int">480</property>
+		<property name="PixelBytes0" type="int">3</property>
+		<property name="Flip0" type="int">0</property>
+		<property name="CameraID1" type="int">1</property>
+		<property name="FrameRate1" type="int">30</property>
+		<property name="Width1" type="int">640</property>
+		<property name="Height1" type="int">480</property>
+		<property name="PixelBytes1" type="int">3</property>
+		<property name="Flip1" type="int">0</property>
+	</properties>
+	<data_type_list />
+	<defined_data_types />
+	<defined_service_types>
+		<defined_service_type>MultiCameraService.xml</defined_service_type>
+	</defined_service_types>
+	<ports>
+		<service_port>
+			<name>MultiCameraService</name>
+			<description />
+			<type>MultiCameraService</type>
+			<usage>provided</usage>
+			<reference>MultiCameraService.xml</reference>
+			<layout>536,167,156,32</layout>
+		</service_port>
+		<data_port>
+			<name>multiImageData</name>
+			<description />
+			<data_type>vector&lt; vector&lt;unsigned char&gt; &gt;</data_type>
+			<usage>output</usage>
+			<reference />
+			<layout>536,315,127,32</layout>
+		</data_port>
+	</ports>
+</component_profile>
+

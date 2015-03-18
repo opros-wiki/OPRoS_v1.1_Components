@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="euc-kr"?>
+<service_port_type_profile>
+	<service_port_type>
+		<type_name>VisionRecognitionService</type_name>
+		<method name="SetParameter" return_type="ReturnType" call_type="blocking">
+			<param index="1">
+				<name>parameter</name>
+				<type>Property</type>
+			</param>
+		</method>
+		<method name="GetParameter" return_type="Property" call_type="blocking" />
+		<method name="GetError" return_type="ReturnType" call_type="blocking" />
+		<method name="Recognize" return_type="vector&lt;VisionRecognitionResult&gt;" call_type="blocking">
+			<param index="1">
+				<name>image</name>
+				<type>vector&lt;unsigned char&gt;</type>
+			</param>
+			<param index="2">
+				<name>width</name>
+				<type>int</type>
+			</param>
+			<param index="3">
+				<name>height</name>
+				<type>int</type>
+			</param>
+			<param index="4">
+				<name>pixelBytes</name>
+				<type>int</type>
+			</param>
+		</method>
+	</service_port_type>
+</service_port_type_profile>
+

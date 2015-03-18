@@ -1,0 +1,8 @@
+
+; FrequencyFilter.def 
+
+LIBRARY      "FrequencyFilter"
+
+EXPORTS
+    ; 
+	

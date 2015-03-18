@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="source">
+      <UniqueIdentifier>{78fb5839-b340-4fe2-84a3-863760b068e4}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="header">
+      <UniqueIdentifier>{e2e023cb-9adf-4730-8f94-2b11171b1f74}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="resource">
+      <UniqueIdentifier>{85378466-ca32-42f5-9f83-37bd30135569}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GoogleTranslate.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="HttpClient.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GoogleTranslate.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="HttpClient.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="TranslateServiceProvided.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="TranslateServiceRequired.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="wstringSerialize.h">
+      <Filter>header</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

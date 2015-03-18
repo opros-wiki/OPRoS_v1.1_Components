@@ -1,0 +1,8 @@
+
+; HumanDetection.def 
+
+LIBRARY      "HumanDetection"
+
+EXPORTS
+    ; 
+	

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="euc-kr"?>
+<service_port_type_profile>
+	<service_port_type>
+		<type_name>KinectService</type_name>
+		<method name="SetProperty" return_type="bool" call_type="blocking">
+			<param index="1">
+				<name>parameter</name>
+				<type>OPRoS::Property</type>
+			</param>
+		</method>
+		<method name="GetProperty" return_type="OPRoS::Property" call_type="blocking" />
+		<method name="SetCameraAngle" return_type="bool" call_type="blocking">
+			<param index="1">
+				<name>degree</name>
+				<type>float32_t</type>
+			</param>
+		</method>
+		<method name="GetCameraAngle" return_type="float32_t" call_type="blocking" />
+		<method name="GetSkeletonAll" return_type="std::vector&lt;Skeleton&gt;" call_type="blocking" />
+		<method name="GetSkeleton" return_type="Skeleton" call_type="blocking">
+			<param index="1">
+				<name>id</name>
+				<type>uint32_t</type>
+			</param>
+		</method>
+		<method name="GetSkeletonID" return_type="std::vector&lt;uint32_t&gt;" call_type="blocking" />
+		<method name="GetImage" return_type="ImageFrame" call_type="blocking" />
+		<method name="GetDepthImage" return_type="DepthFrame" call_type="blocking" />
+		<method name="GetPixelDepth" return_type="Position" call_type="blocking">
+			<param index="1">
+				<name>x</name>
+				<type>int32_t</type>
+			</param>
+			<param index="2">
+				<name>y</name>
+				<type>int32_t</type>
+			</param>
+		</method>
+	</service_port_type>
+</service_port_type_profile>
+

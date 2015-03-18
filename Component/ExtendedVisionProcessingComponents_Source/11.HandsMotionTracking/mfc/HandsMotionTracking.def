@@ -1,0 +1,8 @@
+
+; HandsMotionTracking.def 
+
+LIBRARY      "HandsMotionTracking"
+
+EXPORTS
+    ; 
+	
